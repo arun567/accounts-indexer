@@ -1,0 +1,16 @@
+fileignoreconfig:
+- filename: .github/workflows/deploy.yml
+  checksum: b00829ee5b20bcfa8949239ebf8c0891852e234cd1d0fd0fd474d9c753f72143
+- filename: package-lock.json
+  checksum: b588e6c8ac8f498c08e5225f537ba0bc7685b70e9454207f07a285d58f56688a
+- filename: src/index.ts
+  checksum: 9a1ca5cfb184068d0dde3a83cc704a6ded8d39c47f0eb6564e8bc1256dc90a3c
+- filename: src/processors/Transactions.ts
+  checksum: 4cf35c9a3cd8f84917b7c74e2027b8ac56c9bf2a7c48c74e8ddf5c2d96df01b0
+- filename: src/sentry.ts
+  checksum: 1caaabfc62f0c697d7da033f4f3ce91870d90b680f43fb3908f86dbe25bc1692
+- filename: src/services/logs.ts
+  checksum: c2d08bc9ac04afcb97f5aa91d2d9a1c00c06e620a0e919d588e47485217e4f4e
+- filename: src/types.ts
+  checksum: a98a220f8bac101b7fc9de5971a5b54020a1771de1c6ef53f910a0753fcd5111
+version: "1.0"
