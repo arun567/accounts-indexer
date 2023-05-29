@@ -30,15 +30,15 @@ interface ChainInfo {
 }
 
 const CHAIN_INFO: ChainInfo[] = [
-  // { chainId: "juno-1", startHeight: 0 },
+  { chainId: "juno-1", startHeight: 0 },
   { chainId: "axelar-dojo-1", startHeight: 0 },
-  // { chainId: "stargaze-1", startHeight: 0 },
-  // { chainId: "secret-4", startHeight: 0 },
-  // { chainId: "osmosis-1", startHeight: 0 },
-  // { chainId: "injective-1", startHeight: 0 },
-  // { chainId: "kaiyo-1", startHeight: 0 },
-  // { chainId: "galileo-3", startHeight: 0 },
-  // { chainId: "atlantic-2", startHeight: 0 },
+  { chainId: "stargaze-1", startHeight: 0 },
+  { chainId: "secret-4", startHeight: 0 },
+  { chainId: "osmosis-1", startHeight: 0 },
+  { chainId: "injective-1", startHeight: 0 },
+  { chainId: "kaiyo-1", startHeight: 0 },
+  { chainId: "galileo-3", startHeight: 0 },
+  { chainId: "atlantic-2", startHeight: 0 },
 ];
 
 if (cluster.isPrimary) {

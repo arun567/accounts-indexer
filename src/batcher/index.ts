@@ -32,9 +32,9 @@ export default class Batcher {
       "pagination.offset": fetchCount ? 0 : offset,
       "pagination.limit": fetchCount ? 1 : this.paginationLimitAccs,
       "pagination.count_total": fetchCount ? "true" : "false",
-      "pagination.reverse": "false",
+      "pagination.reverse": "true",
     };
-    console.log(`accounts fetching pagination: `, qs);
+    // console.log(`accounts fetching pagination: `, qs);
     const url = "cosmos/auth/v1beta1/accounts";
     return await callGetAPI(lcdBaseUrl, url, qs);
   }
